@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af962ed-ade2-48d9-9ce3-26bdfc291ea6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disater/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/disater/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disater/templates/disater/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/disater/templates/disater/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disater/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/disater/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disater/templates/disater/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/disater/templates/disater/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disater/templates/disater/results_area_affected.html" beforeDir="false" afterPath="$PROJECT_DIR$/disater/templates/disater/results_area_affected.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disater/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/disater/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +79,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="115" />
+          <entry key="html" value="248" />
           <entry key="py" value="374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="115" />
+          <entry key="HTML" value="248" />
           <entry key="Python" value="374" />
         </counts>
       </usages-collector>
@@ -100,11 +98,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/disater/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="107">
+              <caret line="25" column="133" selection-start-line="25" selection-start-column="133" selection-end-line="25" selection-end-column="133" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1540555856321" expanded="true" signature="1926:1927" ph="..." />
+                <marker date="1540557064685" expanded="true" signature="1896:1897" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/disater/templates/disater/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="1649">
+              <caret line="97" column="108" selection-start-line="97" selection-start-column="108" selection-end-line="97" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -162,11 +160,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/disater/templates/disater/results_area_affected.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="208">
+              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -174,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/disater/templates/disater/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="269">
+              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -233,15 +231,15 @@
         <option value="$PROJECT_DIR$/disater/templates/disater/affected_areas.html" />
         <option value="$PROJECT_DIR$/disater/templates/disater/index.html" />
         <option value="$PROJECT_DIR$/disater/templates/disater/person_status.html" />
-        <option value="$PROJECT_DIR$/disater/templates/disater/results.html" />
-        <option value="$PROJECT_DIR$/disater/templates/disater/results_area_affected.html" />
         <option value="$PROJECT_DIR$/disater/static/disater/style1.css" />
         <option value="$PROJECT_DIR$/disater/static/disater/style.css" />
         <option value="$PROJECT_DIR$/disater/models.py" />
         <option value="$PROJECT_DIR$/disater/urls.py" />
+        <option value="$PROJECT_DIR$/project/urls.py" />
+        <option value="$PROJECT_DIR$/disater/templates/disater/results_area_affected.html" />
+        <option value="$PROJECT_DIR$/disater/templates/disater/results.html" />
         <option value="$PROJECT_DIR$/disater/views.py" />
         <option value="$PROJECT_DIR$/disater/templates/disater/base.html" />
-        <option value="$PROJECT_DIR$/project/urls.py" />
       </list>
     </option>
   </component>
@@ -380,8 +378,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disater/templates/disater/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/disater/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -568,17 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disater/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1540555856321" expanded="true" signature="1926:1927" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -586,17 +565,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disater/templates/disater/base.html">
+    <entry file="file://$PROJECT_DIR$/disater/templates/disater/results_area_affected.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="208">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disater/templates/disater/results_area_affected.html">
+    <entry file="file://$PROJECT_DIR$/disater/templates/disater/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="269">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disater/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" column="133" selection-start-line="25" selection-start-column="133" selection-end-line="25" selection-end-column="133" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1540557064685" expanded="true" signature="1896:1897" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disater/templates/disater/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="108" selection-start-line="97" selection-start-column="108" selection-end-line="97" selection-end-column="108" />
         </state>
       </provider>
     </entry>

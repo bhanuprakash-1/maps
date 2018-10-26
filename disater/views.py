@@ -23,7 +23,7 @@ def affected_areas(request):
     return render(request , 'disater/affected_areas.html')
 
 def Search_affected_areas(request):
-    if 'q_city' and 'q_street_number' and 'q_pincode' and 'q_address' in request.GET and request.GET['q_city' and 'q_street_number' and 'q_pincode' and 'q_address']:
+    if 'q_city' and 'q_street_number' and 'q_pincode'  in request.GET and request.GET['q_city' and 'q_street_number' and 'q_pincode' ]:
         q_city = request.GET['q_city']
         q_street_number = request.GET['q_street_number']
         q_pincode = request.GET['q_pincode']
