@@ -43,3 +43,19 @@ def Search_affected_areas(request):
         return render(request,'disater/results_area_affected.html',{'a':a,'query':q,'asd':asd})
     else:
         return HttpResponse('please submit a search term.')
+
+
+def post(request):
+    if 'q_fname' and 'q_lname' and 'q_phno' and 'q_profile' in request.GET and request.GET['q_fname' and 'q_lname' and 'q_phno' and 'q_profile']:
+        q_fname = request.GET['q_fname']
+        q_lname = request.GET['q_lname']
+        q_phno = request.GET['q_phno']
+        q_profile = request.GET['q_profile']
+        q=person(first_name=q_fname,last_name=q_lname,relative_number=q_phno,profile_picture=q_profile)
+        all_person=person.objects.all()
+        b=len(all_person)
+        q.save()
+        return render(request,'disater/base.html',{'b':b,'all_person':all_person})
+    else:
+        return HttpResponse('please submit a search term.')
+

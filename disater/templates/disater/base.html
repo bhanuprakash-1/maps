@@ -118,22 +118,33 @@
                     <div class="cform" id="contact-form">
                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                         <div id="errormessage"></div>
-                        <form action="{% url 'Search_affected_areas' %}" method="get" role="form" class="contactForm">
+                        <form action="{% url 'post' %}" method="get" role="form" class="contactForm">
                             <div class="row">
                                 <div class="span6">
                                     <div class="field your-name form-group">
-                                        <input type="text" name="q_first" class="form-control" id="name" placeholder="First Name" data-rule="minlen:2" data-msg="Please write something for us" />
+                                        <input type="text" name="q_fname" class="form-control" id="name" placeholder="First Name" data-rule="minlen:2" data-msg="Please write something for us" />
                                         <div class="validation"></div>
                                     </div>
                                     <div class="field your-name form-group">
-                                        <input type="text" class="form-control" name="q_final" id="name" placeholder="Last Name" data-rule="minlen:2" data-msg="Please write something for us" />
+                                        <input type="text" class="form-control" name="q_lname" id="name" placeholder="Last Name" data-rule="minlen:2" data-msg="Please write something for us" />
                                         <div class="validation"></div>
                                     </div>
                                     <div class="field your-number form-group">
-                                        <input type="number" class="form-control" name="q_mobile_number" id="name" placeholder="Mobile Number" data-rule="minlen:10" data-msg="Please write something for us" />
+                                        <input type="number" class="form-control" name="q_phno" id="name" placeholder="Mobile Number" data-rule="minlen:10" data-msg="Please write something for us" />
                                         <div class="validation"></div>
                                     </div>
-                                    <input type="submit" value="Search" class="btn btn-theme pull-left">
+
+<form class="form-horizontal" enctype="multipart/form-data">
+  <div class="form-group">
+    <label class="control-label ">Upload Pic:</label>
+    <div class="col-xs-3">
+      <input type="file" name="q_profile" />
+    </div>
+  </div>
+</form>
+
+                                    <input type="submit"  value=" Submit" class="btn btn-theme pull-left">
+
                                 </div></div>
 
                         </form>

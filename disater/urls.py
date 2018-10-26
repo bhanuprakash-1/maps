@@ -9,12 +9,14 @@ urlpatterns = [
 
     #disater/person_status
     path('person_status/<int:person_id>', views.details , name='details'),
+    #disater/post
+    path('post/',views.post,name='post'),
 
     #disater/person_status/value=q
     path('search/',views.search, name='search'),
     #disater/affected_areas
     path('affected_areas/', views.affected_areas, name='affected_areas'),
     #disater/affected_areas/search
-    path('/affected_area_search', views.Search_affected_areas, name='Search_affected_areas')
+    path('affected_area_search/', views.Search_affected_areas, name='Search_affected_areas')
 
 ]
