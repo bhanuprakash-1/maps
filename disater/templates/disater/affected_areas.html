@@ -1,0 +1,17 @@
+{% extends 'disater/base.html' %}
+{% block body %}
+<title>affected_areas</title>
+    <form method="get"  action="{% url 'Search_affected_areas' %}" >
+        <label for="city">city</label>&nbsp;
+        <input type="text" id="city" name="q_city" id="id_q_city" value="{{ query_city }}"/>
+        <br>
+        <label for="street_number">street number</label>&nbsp;
+        <input type="number" id="street_number" name="q_street_number" id="id_q_street_number" value="{{ query_street_number }}"/>
+        <br>
+        <label for="pincode">pincode</label>&nbsp;
+        <input type="number" id="pincode" name="q_pincode" id="id_q_pincode" value="{{ query_pincode }}"/>
+        <br>
+        <input type="submit" value="Search">
+        <br>
+    </form>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'disater/base.html' %}
+{% block body %}
+<title>person_status</title>
+<form method="get"  action="{% url 'search' %}" >
+    <label for="first_name">first name</label>&nbsp;
+    <input type="text" id="first_name" name="q" id="id_q" value="{{ query }}"/><br>
+    <input type="submit" value="Search">
+    <br>
+</form>
+{% endblock %}
+

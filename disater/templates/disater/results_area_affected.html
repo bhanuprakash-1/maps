@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    {%  load staticfiles %}
+    <meta charset="utf-8">
+    <title>HELPERS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="{% static 'disater/style.css' %}" rel="stylesheet">
+    <link href="{% static 'disater/bootstrap-responsive.css' %}" rel="stylesheet">
+    <link href="{% static 'disater/default.css' %}" rel="stylesheet">
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar-wrapper">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <!-- Responsive navbar -->
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </a>
+                <h1 class="brand"><a href="{% url 'base' %}">HELPERS</a></h1>
+                <!-- navigation -->
+                <nav class="pull-right nav-collapse collapse">
+                    <ul id="menu-main" class="nav">
+                        <li><a title="team" href="{% url 'base' %}">Person Status</a></li>
+                        <li><a title="services" href="{% url 'base' %}">Affected Areas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="services" class="section orange">
+    <div class="container">
+        <p>You searched for :<strong>{{ query }}</strong> </p>
+        {% if a %}
+            <h3><strong>Area Affected</strong></h3>
+            <img src="{{ asd.photo.url }}">
+        {% else %}
+            <h3><strong>Area Not Affected</strong> </h3>
+        {% endif %}
+    </div>
+</section>
+</body>
+</html>
