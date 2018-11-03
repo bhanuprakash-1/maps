@@ -17,6 +17,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <!-- Responsive navbar -->
+                    <img src=""
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </a>
                     <h1 class="brand"><a href="{% url 'base' %}">HELPERS</a></h1>
@@ -50,7 +51,7 @@
                             <div class="row">
                                 <div class="span6">
                                     <div class="field your-name form-group">
-                                        <input type="text" name="q" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
+                                        <input type="text" name="q" class="form-control" id="name" placeholder="Name of the person" data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
                                         <div class="validation"></div>
                                     </div>
 
@@ -66,7 +67,7 @@
 <!-- section: Search for areas affected -->
     <section id="affected" class="section green">
         <div class="container">
-            <h4>Looking For The areas affected by the flood?</h4>
+            <h4>Looking For The areas affected ?</h4>
             <p>
                 Check here.
             </p>
@@ -108,9 +109,10 @@
                 <section id="post" class="section green">
         <div class="container">
             <h4>Couldn't find your loved one?</h4>
-            <p>
+            <h5>
                 Submit the details here. We'll help you out!
-            </p>
+
+            </h5>
             <div class="blankdivider30">
             </div>
             <div class="row">
@@ -130,7 +132,7 @@
                                         <div class="validation"></div>
                                     </div>
                                     <div class="field your-number form-group">
-                                        <input type="number" class="form-control" name="q_phno" id="name" placeholder="Mobile Number" data-rule="minlen:10" data-msg="Please write something for us" />
+                                        <input type="number" class="form-control" name="q_phno" id="name" placeholder="Mobile Number to contact" data-rule="minlen:10" data-msg="Please write something for us" />
                                         <div class="validation"></div>
                                     </div>
 

@@ -45,9 +45,9 @@
                     {% for person in all_persons %}
                         <li>{{ person }}  <img src="{{ person.profile_picture.url }}" width="200px" height="200px">
                             {% if person.status %}
-                                <h5><strong>found</strong></h5>
+                                <h5><strong>found and safe </strong></h5>
                             {% else %}
-                                <h5><strong>missing</strong></h5>
+                                <h5><strong>rescue team is still in pursuit</strong></h5>
                             {% endif %}
                         </li>
                     {% endfor %}
